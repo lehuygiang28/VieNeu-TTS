@@ -32,8 +32,8 @@ services:
     build:
       context: .
       dockerfile: docker/Dockerfile.gpu
-      target: dev
-    container_name: vieneu-tts-gpu-dev
+      target: prod
+    container_name: vieneu-tts-gpu-prod
     deploy:
       resources:
         reservations:
